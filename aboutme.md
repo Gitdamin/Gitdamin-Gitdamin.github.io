@@ -1,10 +1,10 @@
 ---
 layout: page
 title: About me
+subtitle: My name is Damin Yeom.
 ---
 
 ### My story
-My name is Damin Yeom.
 
 - Seoul, Korea
 - Ewha womans university
