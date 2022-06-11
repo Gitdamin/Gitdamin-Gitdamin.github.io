@@ -19,6 +19,7 @@ author: damin yeom
 navbar-links:
   About Me: "aboutme"
   Category: "https://gitdamin.github.io/category"
+  Tag: "https://gitdamin.github.io/tags/"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
