@@ -13,11 +13,15 @@ comments: true
 
 ## Cafe returning robot
 
-카페에서 음료를 제조해주는 것에서 더 나아가 다 먹고 반납한 트레이를 정리해주는 로봇
+- 카페에서 음료를 제조해주는 것에서 더 나아가 다 먹고 반납한 트레이를 정리해주는 로봇
+
+`바리스타봇 시연영상`
 
 ![img](https://lh3.googleusercontent.com/svea_nGOQg0jXp6MKNV7UZzsUkxpeT6nNGFQPi0UPipvZ6GEDBfwpOwa8BOZTPytnkMy1UrgJ6Ez9gcQFqcN_I9qmirkko4ofxW1n-jaycCzEN8w8bWgKnyjJ6yv4KHhQD3Z_GOBadbgYuPkqGbRIg)
 
-`바리스타봇 시연영상`
+
+{: .box-note} 
+여러 object를 알맞은 장소로 정리하기 위해서는 먼저 object의 class를 분류해야 한다. 
 
 
 
@@ -28,8 +32,6 @@ comments: true
 - food
 - dish
 - trash
-
------------
 
 
 
@@ -235,7 +237,8 @@ torch.save(model, PATH + 'model.pt')  # 전체 모델 저장
 
 `.pt` 형태로 저장할 시 모델 내부 파라미터와 모델 전체가 한 번에 저장된다. 
 
-{: .box-note} 테스트 파일을 따로 만들 시 필요한 과정
+{: .box-note} 
+테스트 파일을 따로 만들 시 필요한 과정
 
 
 
