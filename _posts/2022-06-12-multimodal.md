@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [DL] Multimodal
+title: "[DL] Multimodal"
 subtitle: force + image feature fusion
 # gh-repo: daattali/beautiful-jekyll
 # gh-badge: [star, fork, follow]
