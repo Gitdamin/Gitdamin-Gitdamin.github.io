@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: Damin's github.io
+# title: Damin's github.io
 
 # Your name to show in the footer
-author: damin yeom
+author: damin
 
 # URL
 # url: "https://Gitdamin/github.io"
@@ -18,11 +18,11 @@ author: damin yeom
 
 navbar-links:
   About Me: "aboutme"
-  Category: "https://gitdamin.github.io/category"
+  # Category: "https://gitdamin.github.io/category"
   Tag: "https://gitdamin.github.io/tags/"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Github:
+    - Gitdamin: "https://github.com/Gitdamin"
+  # - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
 
 # --- Logo --- #
@@ -87,7 +87,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+# url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
