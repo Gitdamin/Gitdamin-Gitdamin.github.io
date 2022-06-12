@@ -22,7 +22,7 @@ comments: true
 
 {: .box-note} 
 여러 object를 알맞은 장소로 정리하기 위해서는 먼저 object의 class를 분류해야 한다. 
-
+<br/>
 
 
 ## Class
@@ -36,6 +36,7 @@ comments: true
 
 
 ## Train code
+<br/>
 
 ### `import`
 
@@ -60,6 +61,7 @@ from PIL import Image
 ```
 
 
+<br/>
 
 ### `preprocessing`
 
@@ -96,6 +98,7 @@ test_loader = DataLoader(test_set, batch_size, num_workers=2, pin_memory=True)
 
 input 이미지는 64 * 64 사이즈로 작게 resize 해주었고, 데이터의 수가 적어 발생하는 overfitting을 피하기 위해서 `transforms.RandomHorizontalFlip()` 를 추가해주었다.
 
+<br/>
 
 
 ### `VGG16`
@@ -129,6 +132,7 @@ class VGG(nn.Module):
 
 백본 네트워크로는 가장 기본적인 바닐라 모델 VGG16을 사용하였고, 사전에 학습된 pretrained 모델을 활용하였다. (정확도가 약 20% 증가)
 
+<br/>
 
 
 ### `Train`
@@ -225,7 +229,7 @@ TrainModel(model, criterion=criterion, optimizer=optimizer,trainloader=train_loa
 
 학습을 진행하면서 가장 높은 accuracy를 가진 모델을 최종적으로 저장해준다. 
 
-
+<br/>
 
 ### `model save`
 
@@ -240,9 +244,11 @@ torch.save(model, PATH + 'model.pt')  # 전체 모델 저장
 {: .box-note} 
 테스트 파일을 따로 만들 시 필요한 과정
 
+<br/>
 
 
-### `Test`
+
+## Test
 
 ```python
 test_test_set = ImageFolder(data_dir + '/test', transform = test_transform)
@@ -270,4 +276,6 @@ test(model,test_test_loader,criterion)
 ```
 
 마지막으로 train과 val에서 사용하지 않았던 새로운 데이터에 대해 테스트를 진행해준다. 
+<br/>
+
 
